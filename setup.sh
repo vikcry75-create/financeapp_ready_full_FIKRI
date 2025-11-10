@@ -12,7 +12,7 @@ fi
 flutter create --org ac.id financeapp
 cp -r lib financeapp/
 cp pubspec.yaml financeapp/
-cp -r assets financeapp/
+cp -r assets financeapp/ 
 echo "Project created. Run:"
 echo "  cd financeapp"
 echo "  flutter pub get"
